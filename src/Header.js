@@ -4,7 +4,7 @@ class Header extends React.Component {
     render () {
         return (
             <header className="navbar">
-                Welcome to our amazing page...
+                Contact List
             </header>
         )
     }
