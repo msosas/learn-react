@@ -7,9 +7,19 @@ import products from './dbProducts'
 
 class App extends Component {
   render () {
+    const allProducts = products.map(prod => {
+      return (
+        <Product
+          key={ prod.id }
+          name={ prod.name }
+          price = { prod.price }
+          description = { prod.description }
+        />
+      )
+    })
     return (
       <div className="App">
-        <Product />
+        { allProducts }
       </div>
     )
   }
