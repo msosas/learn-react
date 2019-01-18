@@ -1,3 +1,10 @@
+.App>div[class^='single'] {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 5%;
+}
+
 .single5 {
     height: 50px;
     width: 50px;
@@ -57,9 +64,38 @@
     }
  }
 
- .App>.single5 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 4%;
- }
+
+ .single6 {
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   background-color: #90C695;
+   -webkit-animation: single6 1s infinite ease-in;
+   animation: single6 1s infinite ease-in;
+}
+
+@-webkit-keyframes single6 {
+   0% {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+      opacity: 1;
+   }
+   100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 0;
+   }
+}
+
+@keyframes single6 {
+   0% {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+      opacity: 1;
+   }
+   100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 0;
+   }
+}
