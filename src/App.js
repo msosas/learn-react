@@ -111,13 +111,13 @@ class App extends Component {
                       name="isVegan"
                       checked={this.state.isVegan}
                       onChange={this.handleChange}
-                  /> Lactose Free
+                  /> Vegan
                   <input 
                       type="checkbox"
                       name="isLactose"
                       checked={this.state.isLactose}
                       onChange={this.handleChange}
-                  /> Vegan
+                  /> Lactose Free
                   <br />
                   
                   <button>Submit</button>
