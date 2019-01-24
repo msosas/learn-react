@@ -1,0 +1,30 @@
+.Home {
+    background-color: #90959e;
+    width: 200%;
+}
+
+.InstantInfo {
+    border: 2px solid black;    
+    background-color: #6e97e0;
+    color: #fafafa;
+}
+
+.ExtraInfo {
+    background-color: #fafafa;
+    color: black;
+    font-weight: bold;
+}
+
+.ExtraInfo-Left {
+    margin-left: 5%;
+    float: left;
+}
+
+.ExtraInfo-Right {
+    margin-right: 5%;
+    float: right;
+}
+
+.BudgetAmount {
+    font-size: 3em;
+}
