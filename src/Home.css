@@ -45,3 +45,11 @@
     margin-top: 1%;
     padding: 2%;
 }
+
+.BudgetAmount>a {
+    color: inherit;
+}
+
+.BudgetAmount>a:hover {
+    text-decoration: none;
+}

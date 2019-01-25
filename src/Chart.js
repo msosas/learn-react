@@ -2,7 +2,7 @@ import React from 'react';
 import {Doughnut} from 'react-chartjs-2';
 
 function Chart () {
-    const categories = [ 'Comida' , 'Ocio', 'Hogar', 'Servicios', 'Regalos', 'Inversiones']
+    const categories = [ 'Food' , 'Leisure', 'Housing', 'Services', 'Gifts', 'Investments']
     const categoriesColors = ['#D72638', '#3F88C5', '#F49D37', '#7FB069', '#2E4057']
     const spends = [115, 52, 451, 1024]
     return (
