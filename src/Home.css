@@ -7,7 +7,7 @@
 }
 
 .Home {
-    background-color: #90959e;
+    background-color: #afbbd057;
 }
 
 .InstantInfo {
@@ -34,4 +34,14 @@
 
 .BudgetAmount {
     font-size: 3em;
+}
+
+.leyend {
+    font-size: 0.8em;
+}
+
+.chart {
+    border: 2px solid black;
+    margin-top: 1%;
+    padding: 2%;
 }
