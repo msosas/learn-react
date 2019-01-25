@@ -15,7 +15,6 @@ class InstantInfo extends React.Component {
     }
     calcTodayExp () {
         const today = new Date().toLocaleDateString()
-        let todaySum = 0
         for (let i = 0; i< expensesData.length; i++) { 
             if(expensesData[i].date === today) {
                 this.setState(prevState => ({
