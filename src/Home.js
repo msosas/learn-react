@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import  { Grid, Row, Col } from 'react-bootstrap'
 
 class Home extends React.Component {
     render () {
@@ -15,14 +16,16 @@ class Home extends React.Component {
                         <p>This is your remaining budget today...</p>
                     </div>
                     <div className="ExtraInfo">
-                        <div className="ExtraInfo-Left"> 
-                            { todayExpenses.toLocaleString('es-AR', { style: 'currency', currency: 'ARS' }) } 
-                            <p>Spend Today</p>
-                        </div>
-                        <div className="ExtraInfo-Right">
-                            { todayExpenses.toLocaleString('es-AR', { style: 'currency', currency: 'ARS' }) } 
-                            <p>Spend Today</p>
-                        </div>
+                        <Grid>
+                            <Row className="show-grid">
+                                <Col sm={6}>
+                                    { todayExpenses.toLocaleString('es-AR', { style: 'currency', currency: 'ARS' }) }
+                                </Col>
+                                <Col sm={6}>
+                                    { todayExpenses.toLocaleString('es-AR', { style: 'currency', currency: 'ARS' }) }
+                                </Col>
+                            </Row>
+                        </Grid>
                     </div>
                 </div>
                 <div className="Graph">

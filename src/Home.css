@@ -1,6 +1,13 @@
+.App>div {
+    width: 35%;
+}
+
+.container {
+    width: inherit;
+}
+
 .Home {
     background-color: #90959e;
-    width: 200%;
 }
 
 .InstantInfo {
